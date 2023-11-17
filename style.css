@@ -1,0 +1,105 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: aqua;
+  overflow: none;
+  font-size: 20wv;
+}
+.gamee{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.holder{
+  height: 30%;
+}
+.timerBox{
+  background-color: aquamarine;
+  width: 100%;
+  height:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.tools {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  overflow: none;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: inherit;
+  color: white;
+  background-color: black;
+  justify-self: center;
+  align-items: center;
+}
+
+
+.tools button {
+  height: inherit;
+  width:25%;
+  
+}
+.flex-container {
+  position: relative;
+  border: solid;
+  border-color: black;
+  background-color: wheat;
+  width: 80vh;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+.axis-vertical {
+  position: absolute;
+  width: 0.1vh;
+  height: 100%;
+  background-color: black;
+}
+
+.axis-horizontal {
+  position: absolute;
+  width: 100%;
+  height: 0.1vh;
+  background-color: black;
+}
+
+.point {
+  all: unset;
+  position: absolute;
+  background-color: red;
+  border-radius: 5vh;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: crosshair;
+}
+
+.point img {
+  width: 5vh;
+  height: 5vh;
+  cursor: crosshair;
+
+
+}
+
+
